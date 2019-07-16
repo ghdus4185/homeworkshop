@@ -13,8 +13,8 @@ print((('*'*n)+'\n') * m)
 
 ## print 함수를 한번만 사용해 다음 문장을 출력하시오.
 
-```
-print('"파일은 C:\\Windows\\Users\\내문서\\Python에 저장이 되어있습니다."\n나는 생각했다. \ 'CD를 써서 git bash로 들어가 봐야지'')
+```python
+print('"파일은 C:\\Windows\\Users\\내문서\\Python에 저장이 되어있습니다."\n 나는 생각했다. \' cd를 써서 git bash로 들어가봐야지\'')
 ```
 
 
