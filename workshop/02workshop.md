@@ -5,7 +5,11 @@
 ```python
 n = 5
 m = 9
-print((('*'*n)+'\n')*m)
+#가로를 먼저 만들고 for문으로 세로를 만든다
+for h in range(m):
+    for w in range(n):
+        print('*', end='')
+    print('')
 ```
 
 
