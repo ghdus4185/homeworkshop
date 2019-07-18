@@ -8,6 +8,7 @@ abs()
 len() 
 list() 
 dict()
+input()
 # 등등 ..
 ```
 
@@ -39,3 +40,37 @@ result = my_func(4,7)
 
 # result 값은 11 이다.
 ```
+
+```python
+#파라미터 o & 리턴 o
+def my_sum(a, b):
+    result = a +b
+    return result
+
+total = my_sum(2,3)
+print(total)
+print(type(total))
+
+#파라미터 x & 리턴 o
+def hello():
+    return 'hello'
+
+greeting = hello()
+print(greeting)
+print(type(greeting))
+
+#파라미터 o & 리턴 x
+def say(name, age):
+    print(f'제 이름은{name}이고, 나이는 {age}살 입니다.')
+    
+a = say('hoyeon',123)
+print(a)  # 사용자가 리턴을 적지 않으면 함수는 None을 반환한다
+
+#파라미터x & 리턴x
+def say():
+    print('안녕하세요')
+    
+a = say()
+print(a)
+```
+
