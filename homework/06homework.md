@@ -33,5 +33,6 @@ __repr__ : 그냥 객체만 놔두면 실행되는 메서드
 .append()  : 리스트 삽입
 .reverse() : 입력을 reverse
 .split(' ') : ' '를 기준으로 split
+.items()   : key, value를 가져옴
 ```
 
