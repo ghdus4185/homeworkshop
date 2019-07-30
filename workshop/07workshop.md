@@ -1,6 +1,6 @@
-# 07 homework
+# 07 workshop
 
-# 아래와 같은 Animal 클래스가 있을 때, 해당 클래스를 상속 받아 아래 보기와 같이 동작하는 Dog 클래스와 Bird 클래스를 작성하시오.
+#### 아래와 같은 Animal 클래스가 있을 때, 해당 클래스를 상속 받아 아래 보기와 같이 동작하는 Dog 클래스와 Bird 클래스를 작성하시오.
 
 ```python
 class Animal:
