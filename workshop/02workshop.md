@@ -39,7 +39,7 @@ blood_dict = {}
 for i in blood_types:
     if i in blood_dict:
         blood_dict[i] += 1
-    else
+    else:
     	blood_dict[i] = 1
 print(blood_dict)
     
