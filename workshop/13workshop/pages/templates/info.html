@@ -11,8 +11,8 @@
   <h2>Teacher</h2>
     <li>NAME</li>
   <h2>Student</h2>
-    <li>홍길동</li>
-    <li>김길동</li>
-    <li>박길동</li>
+    {% for student in students %}
+    <li>{{student}}</li>
+    {% endfor %}  
 </body>
 </html>
