@@ -30,5 +30,5 @@ question.answer_set.all
 
 #### 3. 기본적으로 1:N 관계를 설정할 때, ForeignKey를 이용해서 1에 해당하는 클래스를 지정 한다. 지정한 클래스가 Movie일 때, ForeignKey로 지정된 컬럼의 이름은 무엇인가?
 
-`movie_id`
+`question_id`
 
