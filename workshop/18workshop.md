@@ -9,14 +9,14 @@ CREATE TABLE bands (
     debut INTEGER
 );
 
-INSERT INTO bands VALUES(1, 'Queen', 1973);
-INSERT INTO bands VALUES(2, 'Coldplay', 1998);
-INSERT INTO bands VALUES(3, 'MCR', 2001);
+INSERT INTO bands VALUE(1, 'Queen', 1973);
+INSERT INTO bands VALUE(2, 'Coldplay', 1998);
+INSERT INTO bands VALUE(3, 'MCR', 2001);
 
 .headers on
 .mode column
 
-SELECT * FROM bands
+SELECT * FROM bands;
 ```
 
 ### 2. bands 테이블에서 모든 데이터 레코드의 id와 name만 조회하는 SQL query문을 작성하고 실행하시오.

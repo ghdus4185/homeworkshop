@@ -13,25 +13,34 @@ CREATE TABLE friends (
 ### 2. 해당 테이블에 다음과 같이 데이터를 입력하시오.
 
 ```python
-INSERT INTO friends VALUES(1, Justin, Seoul)
-INSERT INTO friends VALUES(2, Simon, New York)
-INSERT INTO friends VALUES(3, Chang, Las Vegas)
-INSERT INTO friends VALUES(4, John, Sydney)
+INSERT INTO friends 
+VALUE(1, Justin, Seoul), 
+VALUE(2, Simon, New York), 
+VALUE(3, Chang, Las Vegas), 
+VALUE(4, John, Sydney);
 ```
 
 ### 3. 스키마를 다음과 같이 변경하시오.
 
 ```python
-ALTER TABLE friends ADD COLUMN created_at marride INTEGER;
+ALTER TABLE friends ADD COLUMN marride INTEGER;
 ```
 
 ### 4. 데이터를 다음과 같이 추가하시오.
 
 ```python
-INSERT INTO friends(marride) VALUES(1)
-INSERT INTO friends(marride) VALUES(0)
-INSERT INTO friends(marride) VALUES(0)
-INSERT INTO friends(marride) VALUES(1)
+UPDATE friends
+SET married=1
+WHERE id=1;
+UPDATE friends
+SET married=0
+WHERE id=2;
+UPDATE friends
+SET married=0
+WHERE id=3;
+UPDATE friends
+SET married=1
+WHERE id=4;
 ```
 
 

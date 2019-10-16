@@ -32,7 +32,6 @@ sqlite> CREATE TABLE ssafy (
 sqlite> INSERT INTO ssafy (id, location) 
 	…> VALUES (1, ‘JEJU’); 
 sqlite> SELECT class FROM ssafy WHERE id=1;
-
 ```
 
 ```python
